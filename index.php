@@ -38,7 +38,7 @@ function get_string_between($string, $start, $end){
 
              $dom->preserveWhiteSpace = false;
              $hTwo= $dom->getElementsByTagName('script');
-             $hepsi =  $hTwo->item(2)->nodeValue;
+             $hepsi =  $hTwo->item(3)->nodeValue;
 
              $hepsi = substr($hepsi, 21);
              $hepsi = substr($hepsi, 0, -1);
